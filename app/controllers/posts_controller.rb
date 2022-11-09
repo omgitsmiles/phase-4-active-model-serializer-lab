@@ -16,5 +16,6 @@ class PostsController < ApplicationController
   def render_not_found_response
     render json: { error: "Post not found" }, status: :not_found
   end
+  
 
 end
